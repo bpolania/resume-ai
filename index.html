@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Resume</h1>
+            <p>Chat with my AI assistant to learn about my background and experience</p>
+        </header>
+        
+        <div class="quick-queries">
+            <button class="query-button" data-query="Tell me about experience in crypto and blockchain">Crypto & Blockchain</button>
+            <button class="query-button" data-query="Tell me about experience in payments">Payments</button>
+            <button class="query-button" data-query="Tell me about experience in the auto industry">Auto Industry</button>
+            <button class="query-button" data-query="Tell me about experience in AI and machine learning">AI & ML</button>
+        </div>
+        
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        Hi! I'm an AI assistant. Loading your resume data...
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chat-input-container">
+                <input type="text" id="userInput" placeholder="" class="chat-input">
+                <button id="sendButton" class="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
