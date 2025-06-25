@@ -8,6 +8,9 @@
 # Personal resume data
 resume-data.json
 
+# Vercel
+.vercel
+
 # Node modules
 node_modules/
 

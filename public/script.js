@@ -67,7 +67,7 @@ class ResumeChat {
     
     async loadResumeData() {
         try {
-            const response = await fetch('resume-data.json');
+            const response = await fetch('/resume-data.json');
             this.resumeData = await response.json();
         } catch (error) {
             console.error('Error loading resume data:', error);
