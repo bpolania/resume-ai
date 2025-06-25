@@ -1,0 +1,147 @@
+{
+  "personalInfo": {
+    "name": "Boris Polania",
+    "phone": "(954) 8251840",
+    "email": "boris.polania@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/bpolania",
+    "github": "https://github.com/bpolania",
+    "twitter": "@hackboing"
+  },
+  "experience": [
+    {
+      "company": "STORY",
+      "location": "Palo Alto, California",
+      "title": "Infrastructure Partners Integration Lead",
+      "duration": "June 2024 – Present",
+      "responsibilities": [
+        "Coordinated integration efforts with infrastructure partners, including indexers, storage systems, oracles, etc., facilitating smooth onboarding and system compatibility",
+        "Oversee all external and internal communication channels for our engineering team. Including crafting technical blog posts, managing our team's social media presence, drafting official announcements, and ensuring consistent messaging across all platforms",
+        "Contributed to developing and maintaining Python and TypeScript SDKs, ensuring reliable integration points for partners and internal applications",
+        "Led testing and release processes for SDKs, coordinating across teams to deliver stable and well-documented updates",
+        "Supported QA efforts for core protocol components developed in Golang, helping identify and resolve issues across the stack"
+      ]
+    },
+    {
+      "company": "AURORA/NEAR",
+      "location": "Remote",
+      "title": "Technical Partnerships Engineering Lead",
+      "duration": "August 2022 – June 2024",
+      "responsibilities": [
+        "Developed SDKs, libraries, and Rust, JavaScript, and Python tooling to support seamless integration with Aurora's blockchain ecosystem",
+        "Built and audited smart contracts in Solidity and Rust, ensuring secure and efficient on-chain functionality",
+        "Contributed to decentralized application (dApp) development using React, integrating with Web3 backends and Aurora infrastructure",
+        "Led the development and deployment of Aurora's Developer Portal, providing documentation, tooling access, and onboarding resources for the ecosystem",
+        "Implemented core protocol standards such as account abstraction, ERC-6551, and gasless relaying to improve the developer experience and protocol capabilities",
+        "Maintained relationships with external developers and partners to support product integration and technical collaboration",
+        "Worked with product and engineering teams to align developer needs with internal roadmaps, identifying technical opportunities for ecosystem growth",
+        "Contributed to company strategy by researching and evaluating potential partnerships, informed by market trends and product alignment"
+      ]
+    },
+    {
+      "company": "HARMONY",
+      "location": "Los Altos, California",
+      "title": "Senior Engineer & Product Leader / DevRel and Partnerships LATAM",
+      "duration": "April 2021 – July 2022",
+      "responsibilities": [
+        "Designed and implemented decentralized finance (DeFi) applications focused on cross-chain interoperability, ZK-rollups, and staking protocols",
+        "Led the system architecture for cross-chain swap functionality, including routing logic, asset bridging mechanisms, and on-chain/off-chain coordination",
+        "Developed and tested smart contracts in Solidity to power liquidity pools, staking modules, and token bridges across EVM-compatible chains",
+        "Conducted R&D on additional DeFi primitives, including lending markets, algorithmic stablecoins, and universal basic income (UBI) frameworks",
+        "Reviewed and maintained developer documentation to support adoption and transparency for both internal teams and external contributors",
+        "Collaborated with engineers and researchers to evaluate protocol-level enhancements and optimize smart contract performance and security",
+        "Engaged in technical outreach and partner relations with community-led blockchain projects in the U.S. and Latin America, supporting integration and co-development efforts"
+      ]
+    },
+    {
+      "company": "HONDA",
+      "location": "Cupertino & Torrance, California",
+      "title": "Lead Systems Architect – Blockchain and Mobility",
+      "duration": "August 2017 – March 2021",
+      "responsibilities": [
+        "Led the system architecture and development of e-mobility services, including mobile apps for iOS and Android supporting electric vehicle (EV) end users",
+        "Designed and implemented V2G (Vehicle-to-Grid) communication systems, integrating standards such as IEEE 2030.5 and OCPP 2.0 across the U.S., Europe, and Japan",
+        "Developed secure, PCI-compliant EV payment infrastructure—including tokenized EMV-based transactions—across global V2G implementations",
+        "Architected and tested communication networks connecting distributed energy resources, utilities, and EVs, coordinating third-party infrastructure providers",
+        "Served as Honda's technical representative in the MOBI consortium's EVGI working group, contributing to blockchain-based system design for EV grid integration",
+        "Led the development of an EMV-compliant in-vehicle payments platform, integrating mobile wallets with the Honda Driver App (Android Auto & CarPlay)",
+        "Designed and implemented scalable backend services using AWS (VPC, Lambda, CloudFormation), serving mobility users in North America, Europe, and Asia",
+        "Built and deployed microservices using OpenShift, enabling modular expansion and service isolation across connected vehicle platforms",
+        "Developed machine learning models in TensorFlow, Keras, and PyTorch for image recognition and multi-agent systems in mobility and robotics applications",
+        "Prototyped IoT and autonomy solutions with Jetson Nano, Raspberry Pi, and Arduino, enabling rapid experimentation in cross-device connectivity",
+        "Directed cross-regional partnerships for blockchain-focused mobility solutions in Japan, Brazil, Germany, and the U.S., contributing as a domain specialist",
+        "Team Lead for Honda's North America Blockchain Initiative; delivered PoCs and supported adoption across internal teams in multiple continents",
+        "Authored blockchain-based Vehicle Identification Standards as part of the MOBI consortium; organized Honda's internal Global Blockchain Summit",
+        "Facilitated design thinking workshops with Visa Innovation Center (Singapore) for integrating payments into two-wheeled mobility in Asia",
+        "Filed patents across a range of domains, including engine diagnostics, HMI for vehicles, and blockchain-backed systems"
+      ]
+    },
+    {
+      "company": "FLOMIO",
+      "location": "Miami Beach, Florida",
+      "title": "Lead Developer – NFC, Payments, and Embedded Systems",
+      "duration": "January 2012 – December 2016",
+      "responsibilities": [
+        "Led development of SDKs for Bluetooth Low Energy (BLE) and audio jack–based NFC readers, supporting a wide range of third-party hardware, including FloBLE Mini, ACR35, and ACS125",
+        "Built and maintained iOS SDKs in Objective-C, enabling seamless communication between custom NFC hardware and iOS applications",
+        "Developed hybrid SDK integrations for Cordova/Meteor platforms to enable cross-platform use of NFC and Bluetooth peripherals",
+        "Implemented a custom EMV payment stack in Objective-C and JavaScript for secure NFC-based transaction processing",
+        "Visa Cashless on the Catwalk (2015): Developed iOS SDKs and embedded firmware for wearable NFC/Bluetooth payment readers integrated into designer fashion, showcased in a live Visa-sponsored event",
+        "Visa NFC Experience – Rio Olympics (2016): Engineered SDKs and native apps for Ingenico PoS terminals, enabling RFID-enabled rings to complete NFC transactions in a real retail environment. Supported real-time tokenization and payment flows across devices"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Software Engineer",
+      "school": "UCAB",
+      "location": "Caracas, Venezuela"
+    },
+    {
+      "degree": "ALM",
+      "school": "Harvard",
+      "location": "Cambridge, MA"
+    }
+  ],
+  "skills": [
+    "Python",
+    "TypeScript",
+    "Golang",
+    "Rust",
+    "JavaScript",
+    "Solidity",
+    "React",
+    "AWS",
+    "Blockchain",
+    "Smart Contracts",
+    "NFC",
+    "iOS Development",
+    "Objective-C",
+    "Machine Learning",
+    "TensorFlow",
+    "Keras",
+    "PyTorch",
+    "V2G Systems",
+    "EMV Payments",
+    "Cross-chain Development",
+    "DeFi",
+    "SDK Development"
+  ],
+  "projects": [
+    {
+      "name": "Aurora Developer Portal",
+      "description": "Led development and deployment providing documentation, tooling access, and onboarding resources for the ecosystem"
+    },
+    {
+      "name": "Honda Driver App Payment Integration",
+      "description": "EMV-compliant in-vehicle payments platform integrating mobile wallets with Android Auto & CarPlay"
+    },
+    {
+      "name": "Visa Cashless on the Catwalk",
+      "description": "Developed iOS SDKs and embedded firmware for wearable NFC/Bluetooth payment readers integrated into designer fashion"
+    },
+    {
+      "name": "Visa NFC Experience – Rio Olympics",
+      "description": "Engineered SDKs and native apps for Ingenico PoS terminals, enabling RFID-enabled rings to complete NFC transactions"
+    }
+  ]
+}
