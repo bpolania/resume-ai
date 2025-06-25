@@ -203,4 +203,4 @@ If you encounter any issues:
 
 ---
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by Boris Polania**
