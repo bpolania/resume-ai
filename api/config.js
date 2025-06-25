@@ -14,7 +14,19 @@ export default async function handler(req, res) {
         return res.status(405).json({ error: 'Method not allowed' });
     }
 
+    // Debug environment variables
+    console.log('Environment variables:', {
+        USER_NAME: process.env.USER_NAME,
+        NODE_ENV: process.env.NODE_ENV,
+        VERCEL: process.env.VERCEL
+    });
+
     res.json({ 
-        userName: process.env.USER_NAME || 'Your Name'
+        userName: process.env.USER_NAME || 'Your Name',
+        debug: {
+            hasUserName: !!process.env.USER_NAME,
+            nodeEnv: process.env.NODE_ENV,
+            isVercel: !!process.env.VERCEL
+        }
     });
 }
